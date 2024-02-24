@@ -1,2 +1,21 @@
 # arrayf
 array functions
+import numpy as np
+a=np.zeros((3,3),dtype='int')
+print(a)
+print("\n")
+b=np.ones((4,4),dtype="int")
+print(b)
+print("\n")
+c=np.eye((4),dtype="int")
+print(c)
+print("\n")
+d=c.reshape((2,8))
+print(d)
+print("\n")
+e=np.arange(0,50,5)
+print(e)
+print("\n")
+f=np.linspace(0,5,100)
+print(f)
+print("\n")
